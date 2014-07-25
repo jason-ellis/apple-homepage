@@ -1,0 +1,40 @@
+#content {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+#hero {
+    max-width: 1440px;
+    min-width: 1024px;
+    height: 538px;
+    background-image: url("http://images.apple.com/home/images/parenthood_hero.jpg");
+    background-position: 50% 50%;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+#sidekicks ul {
+    height: 200px;
+    max-width: inherit;
+    min-width: inherit;
+    padding: 0;
+}
+#sidekicks li {
+    max-width: 360px;
+    min-width: 256px;
+}
+
+footer {
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+    color: rgb(110, 110, 110);
+    font-size: 10px;
+    line-height: 12px;
+}
+footer a {
+    text-decoration: none;
+    color: rgb(0, 136, 204);
+}
+footer a:hover {
+    text-decoration: underline;
+}
