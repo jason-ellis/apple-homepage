@@ -1,6 +1,7 @@
 #content {
     margin: 0 auto;
     max-width: 1440px;
+    min-width: 1024px;
 }
 
 #hero {
@@ -12,19 +13,29 @@
 }
 li {
     list-style: none;
-    display: inline-block;
+    float: left;
 }
 #sidekicks ul {
     height: 200px;
     max-width: inherit;
     min-width: inherit;
     padding: 0;
+    margin: 0;
 }
 #sidekicks li {
-    max-width: 360px;
-    min-width: 256px;
+    display: inline-block;
+    width: 25%;
+    height: inherit;
+    overflow: hidden;
+    position: relative;
 }
-
+#sidekicks a img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 364px;
+}
 footer {
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
     color: rgb(110, 110, 110);
