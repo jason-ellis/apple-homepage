@@ -1,19 +1,76 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 #content {
     margin: 0 auto;
+    padding: 0;
     max-width: 1440px;
     min-width: 1024px;
 }
 
 #hero {
+    margin: 0;
+    padding: 0;
     max-width: 1440px;
     min-width: 1024px;
     height: 538px;
     background-image: url("http://images.apple.com/home/images/parenthood_hero.jpg");
     background-position: 50% 50%;
+    position: relative;
+    top: 0;
 }
 li {
     list-style: none;
     float: left;
+}
+#main-nav {
+    position: relative;
+    top: 18px;
+    width: 980px;
+    height: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #707070;
+}
+nav {
+    height: inherit;
+}
+#main-nav ul {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    height: inherit;
+}
+#main-nav li {
+    display: inline-block;
+    height: inherit;
+}
+#main-nav a {
+    display: inline-block;
+    line-height: 100%;
+    height: 100%;
+    width: 100%;
+}
+#nav-apple,
+#nav-store,
+#nav-mac,
+#nav-ipod,
+#nav-iphone {
+    width: 106px;
+    height: inherit;
+}
+#nav-ipad,
+#nav-itunes,
+#nav-support {
+    width: 105px;
+    height: inherit;
+}
+#nav-search {
+    width: 135px;
+    height: inherit;
 }
 #sidekicks ul {
     height: 200px;
@@ -33,7 +90,6 @@ li {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
     width: 364px;
 }
 footer {
