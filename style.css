@@ -93,6 +93,23 @@ nav {
     margin-right: auto;
     width: 364px;
 }
+#sidekicks div {
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+#promo_dreams {
+    background: url("img/promo_dreams.jpg");
+}
+#promo_yosemite {
+    background: url("img/promo_yosemite.jpg");
+}
+#promo_beats {
+    background: url("img/promo_beats.png");
+}
+#promo_college {
+    background: url("img/promo_college.jpg");
+}
 footer {
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
     color: rgb(110, 110, 110);
