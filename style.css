@@ -86,6 +86,8 @@ nav {
     height: inherit;
     overflow: hidden;
     position: relative;
+    padding: 1px;
+    box-sizing: border-box;
 }
 #sidekicks a img {
     display: block;
