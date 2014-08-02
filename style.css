@@ -17,7 +17,7 @@ html, body {
     max-width: 1440px;
     min-width: 1024px;
     height: 895px;
-    background-image: url("http://images.apple.com/home/images/stickers_hero.jpg");
+    background-image: url("img/stickers_hero.jpg");
     background-position: 50% 56%;
     position: relative;
     top: 0;
