@@ -16,9 +16,9 @@ html, body {
     padding: 0;
     max-width: 1440px;
     min-width: 1024px;
-    height: 538px;
-    background-image: url("http://images.apple.com/home/images/parenthood_hero.jpg");
-    background-position: 50% 50%;
+    height: 895px;
+    background-image: url("http://images.apple.com/home/images/stickers_hero.jpg");
+    background-position: 50% 56%;
     position: relative;
     top: 0;
 }
@@ -53,6 +53,7 @@ nav {
     line-height: 100%;
     height: 100%;
     width: 100%;
+    text-align: center;
 }
 #nav-apple,
 #nav-store,
