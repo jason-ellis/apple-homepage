@@ -9,6 +9,8 @@ html, body {
     padding: 0;
     max-width: 1440px;
     min-width: 1024px;
+    position: relative;
+    text-align: center;
 }
 
 #hero {
@@ -21,6 +23,17 @@ html, body {
     background-position: 50% 56%;
     position: relative;
     top: 0;
+}
+#hero-link {
+    max-width: inherit;
+    min-width: inherit;
+    height: 895px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
 }
 li {
     list-style: none;
@@ -72,6 +85,20 @@ nav {
 #nav-search {
     width: 135px;
     height: inherit;
+}
+header {
+    height: 446px;
+    width: 980px;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#hero-title {
+    z-index: 1;
+    padding: 130px 0 5px 0;
+    display: inline-block;
 }
 #sidekicks ul {
     height: 200px;
