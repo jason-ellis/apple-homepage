@@ -20,9 +20,10 @@ html, body {
     min-width: 1024px;
     height: 895px;
     background-image: url("img/stickers_hero.jpg");
-    background-position: 50% 56%;
+    background-position: 50% 45%;
     position: relative;
     top: 0;
+    background-size: 1500px auto;
 }
 #hero-link {
     max-width: inherit;
@@ -33,7 +34,7 @@ html, body {
     bottom: 0;
     left: 0;
     right: 0;
-    z-index: 2;
+    z-index: 1;
 }
 li {
     list-style: none;
@@ -99,6 +100,21 @@ header {
     z-index: 1;
     padding: 130px 0 5px 0;
     display: inline-block;
+}
+
+#hero-sub {
+    height: 31px;
+    overflow: hidden;
+    display: inline-block;
+    z-index: 10;
+    position: relative;
+}
+#hero-sub img:hover {
+    margin-top: -32px;
+}
+#hero-sub img {
+    height: 62px;
+    width: 980px;
 }
 #sidekicks ul {
     height: 200px;
