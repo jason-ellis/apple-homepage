@@ -76,6 +76,13 @@ nav {
                 -webkit-gradient(linear, 0 100%, 0 0, from(#666),
                     color-stop(0.5, #5e5e5e),
                     color-stop(0.51, #707070), to(#808080));
+    box-sizing: border-box;
+    border-width: 0 2px 0 1px;
+    border-image: url('img/border_img.png') 0 2 0 1;
+}
+#main-nav li:first-child {
+    border-width: 0 2px 0 0;
+    border-image: url('img/border_img.png') 0 2 0 1;
 }
 #main-nav li:hover {
     background: rgba(0, 0, 0, 0.4);
