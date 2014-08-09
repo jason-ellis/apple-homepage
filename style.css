@@ -48,6 +48,7 @@ li {
     margin-left: auto;
     margin-right: auto;
     background: #707070;
+    border-radius: 4px;
 }
 nav {
     height: inherit;
@@ -59,8 +60,11 @@ nav {
     height: inherit;
 }
 #main-nav li {
+    z-index: 10;
+    position: relative;
     display: inline-block;
     height: inherit;
+
 }
 #main-nav a {
     display: inline-block;
@@ -68,6 +72,11 @@ nav {
     height: 100%;
     width: 100%;
     text-align: center;
+    background: url(img/globalnav_text.png) no-repeat 50% 0;
+    margin-top: 3px;
+}
+#main-nav span {
+    visibility: hidden;
 }
 #nav-apple,
 #nav-store,
@@ -82,6 +91,28 @@ nav {
 #nav-support {
     width: 105px;
     height: inherit;
+}
+#nav-store a {
+    background-position:  50% -30px;
+
+}
+#nav-mac a {
+    background-position:  50% -60px;
+}
+#nav-ipod a {
+    background-position:  50% -90px;
+}
+#nav-iphone a {
+    background-position:  50% -120px;
+}
+#nav-ipad a {
+    background-position:  50% -150px;
+}
+#nav-itunes a {
+    background-position:  50% -180px;
+}
+#nav-support a {
+    background-position:  50% -210px;
 }
 #nav-search {
     width: 135px;
