@@ -149,6 +149,12 @@ nav {
     width: 135px;
     height: inherit;
 }
+#nav-search-box {
+    height: 19px;
+    width: 106px;
+    position: relative;
+    margin: 8px auto;
+}
 header {
     height: 446px;
     width: 980px;
